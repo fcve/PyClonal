@@ -38,3 +38,5 @@ if __name__ == "__main__":
     sequences['Epitope'] = pd.Series(found_epitopes, sequences.index)
 
     sequences.to_csv("sequences_with_epitopes.tsv", sep="\t", index=False)
+
+    
